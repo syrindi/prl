@@ -12,4 +12,30 @@ knitr::opts_chunk$set(echo = FALSE, error = FALSE, message = FALSE, warning = FA
 - Links
 
     - [Patient Matching Algorithm Challenge]("https://www.patientmatchingchallenge.com/")
-    - [R Package EwcordLinkage]("https://journal.r-project.org/archive/2010-2/RJournal_2010-2_Sariyar+Borg.pdf")
+    - [R Package RecordLinkage]("https://journal.r-project.org/archive/2010-2/RJournal_2010-2_Sariyar+Borg.pdf")
+    - [RPub presentation on R package RecordLinkage]("http://rpubs.com/ahmademad/RecordLinkage")
+    - [Efficient Piivate Record Linkage]("https://pdfs.semanticscholar.org/d82e/7570acc922ff2d5b4b84162e886e248b82bc.pdf")
+    - [precision, recall, F score]("https://chrisalbon.com/machine-learning/precision_recall_and_F1_scores.html")
+    
+- Recall, Precision, F-score
+    - harmonic mean rather than geometric mean sine dealing with proportions
+    - Precision:
+Proportion of all positive predictions that are correct. Precision is a measure of how many positive predictions were actual positive observations.
+
+Precision=TP/TP+FP=positive predicted correctly/all positive predictions
+
+Memory aid: "Precision is about the Predicted Positives": correctly Predicted Positives divided by all Predicted Positives
+
+Recall:
+Same as TPR. Proportion of all real positive observations that are correct. Precision is a measure of how many actual positive observations were predicted correctly.
+
+Recall=TPR=TP/TP+FN=TPP=predicted to be positive/all positive observations
+
+Memory aid: "Recall is about the re-all (real) positives" Correctly Predicted PositiveAll Real PositivesCorrectly Predicted PositiveAll Real Positives
+
+F1 Score:
+The harmonic mean of precision and recall. F1 score is an 'average' of both precision and recall. We use the harmonic mean because it is the appropriate way to average ratios (while arthmetric mean is appropriate when it conceptually makes sense to add things up).
+
+F1=2Precision∗Recall/Precision+Recall
+
+    
