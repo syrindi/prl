@@ -11,4 +11,5 @@ knitr::opts_chunk$set(echo = FALSE, error = FALSE, message = FALSE, warning = FA
 
 - Links
 
-    - [Patient MAtching Algorithm Challenge]("https://www.patientmatchingchallenge.com/")
+    - [Patient Matching Algorithm Challenge]("https://www.patientmatchingchallenge.com/")
+    - [R Package EwcordLinkage]("https://journal.r-project.org/archive/2010-2/RJournal_2010-2_Sariyar+Borg.pdf")
