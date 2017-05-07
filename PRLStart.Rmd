@@ -1,0 +1,14 @@
+---
+title: "privateRecordLinkage"
+author: "PJL"
+date: "May 7, 2017"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, error = FALSE, message = FALSE, warning = FALSE)
+```
+
+- Links
+
+    - [Patient MAtching Algorithm Challenge]("https://www.patientmatchingchallenge.com/")
